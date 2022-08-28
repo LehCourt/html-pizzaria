@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: #cecece ;
+
+}
+
+ul>li {
+    list-style: none;
+    color: #fff;
+    display: inline-flex;
+    margin-left: 30px;
+}
+
+
+a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cecece;
+}
+
+nav {
+    text-align:left;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin: top -61px;
+    background-color: black;
+}
+div#logo {
+    background-color: black;
+    margin-top: -61px
+    
+}
+div#principal {
+    height: 600px;
+    padding: 30px;
+    background: url('../assets/Background-inicio.jpg');
+
+}
+
+div#descricao {
+    font-size: 20px;
+    width: fit-content;
+    margin-left: 65%;
+    margin-right: 0;
+
+}
+
+.text-description {
+    color: white;
+    text-shadow: 5px 5px 5px #cecece;
+}

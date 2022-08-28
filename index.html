@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="cardapio.html"> <i class="fas fa-car"></i> Cardapio</a>
+            </li>
+            <li>
+                <a href="quemsomos.html"><i class="fas fa-car"></i> Quem Somos </a>
+            </li>
+            <li>
+                <a href="faleconosco.html"><i class="fas fa-car"></i> Fale Conosco!</a>
+            </li>
+
+        </ul>
+    </nav>
+    <div id="logo">   
+        <a href="index.html">
+                
+            <input type="image" src="./assets/pizza-logo.png" height="50px" />
+
+        </a>
+    </div>
+
+    <div id="principal">
+        <div id="descricao">
+         <h1 class="text-description">Somos a melhor Pizzaria </h1>
+
+         <p class="text-description">Venha conferir nossos<b> sabores!</b> </p>
+         <button id="btn1">
+            conferir cardapio
+         </button>
+        </div>
+
+    </div>
+
+
+
+</body>
+<script>
+    const botao = document.getElementById("btn1")
+    botao.onclick = function(){
+        window.location.href = "cardapio.html";
+    }
+</script>
+</html>
